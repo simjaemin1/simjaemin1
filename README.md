@@ -10,7 +10,7 @@
 
 | 프로젝트 | 내용 | 링크 |
 |---|---|---|
-| Slotlink (운영판) | 선착순 신청 시스템입니다. 실제 고등학교 설명회에 투입하여 800명 정원이 45초 만에 마감되는 상황을 정원 초과 없이 처리했습니다. Firestore 트랜잭션과 지수 백오프·지터 재시도를 적용했습니다 | [slotlink-school](https://github.com/simjaemin1/slotlink-school) |
+| Slotlink (운영판) | 선착순 신청 시스템입니다. 실제 고등학교 설명회에 투입하여 800명 정원이 32초 만에 마감되는 상황을 정원 초과 없이 처리했습니다. 신청 번호는 1번부터 800번까지 중복과 누락 없이 배정되었습니다. Firestore 트랜잭션과 지수 백오프·지터 재시도를 적용했습니다 | [slotlink-school](https://github.com/simjaemin1/slotlink-school) |
 | Slotlink (락 비교 실험) | 동일한 요구사항을 Spring으로 재구현하여 비관적 락, 낙관적 락, 분산 락(Redisson) 세 전략을 Strategy 패턴으로 교체 가능하도록 구성하고, 부하 조건 두 가지에서 k6로 측정·비교했습니다. Testcontainers 통합 테스트 15개를 함께 작성했습니다 | [slotlink-spring](https://github.com/simjaemin1/slotlink-spring) |
 | 미니 | 51개 NPC 마을이 자율적으로 운영되는 경제 시뮬레이션입니다. 복수의 AI 에이전트에 작업을 분배하며 진행 중이고, 설계 원칙과 검증 기준을 수립하여 산출물을 검사하는 방식을 실험하고 있습니다 | [Mini](https://github.com/simjaemin1/Mini) |
 | Franchat | 지인 기반 익명 채팅·SNS 앱입니다. 개발을 담당하여 두 스토어에 출시하고 1년 넘게 운영하고 있습니다. 매칭 레이스 컨디션 해결, 연결과 활동 상태 분리 등을 다뤘습니다 *(저장소 비공개 · 앱 소유자는 팀원)* | [App Store](https://apps.apple.com/kr/app/franchat/id6743160010) · [Google Play](https://play.google.com/store/apps/details?id=com.sjsong.franchat) |
