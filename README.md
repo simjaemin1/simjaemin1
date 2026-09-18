@@ -16,8 +16,6 @@
 | Franchat | 지인 기반 익명 채팅·SNS 앱입니다. 개발을 담당하여 두 스토어에 출시하고 1년 넘게 운영하고 있습니다. 매칭 레이스 컨디션 해결, 연결과 활동 상태 분리 등을 다뤘습니다 *(저장소 비공개 · 앱 소유자는 팀원)* | [App Store](https://apps.apple.com/kr/app/franchat/id6743160010) · [Google Play](https://play.google.com/store/apps/details?id=com.sjsong.franchat) |
 | Daily Insight | 한국 주식 추천 서비스 백엔드입니다(6인 팀). Django REST Framework를 사용했으며, 요청마다 발생하던 S3 왕복을 제거하여 조회 응답을 단축하고 테스트 커버리지를 74%에서 99%로 개선했습니다 *(수업 팀 프로젝트로 저장소 비공개)* | — |
 
-비공개 저장소의 코드는 면접 시 화면 공유로 설명드릴 수 있습니다.
-
 ---
 
 ### 기술 스택
